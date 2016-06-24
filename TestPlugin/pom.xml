@@ -17,10 +17,17 @@
     </properties>
 
     <dependencies>
+	<dependency>
+            <groupId>ro.fortsoft.pf4j</groupId>
+            <artifactId>pf4j</artifactId>
+            <version>0.13.1</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>test.app.api</groupId>
             <artifactId>test.app.api</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
